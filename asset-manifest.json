@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/rezzieomoigui/frontend-react/static/css/main.31d6cfe0.css",
-    "main.js": "/rezzieomoigui/frontend-react/static/js/main.aa80742a.js",
-    "index.html": "/rezzieomoigui/frontend-react/index.html",
-    "main.aa80742a.js.map": "/rezzieomoigui/frontend-react/static/js/main.aa80742a.js.map"
+    "main.css": "/frontend-react/static/css/main.31d6cfe0.css",
+    "main.js": "/frontend-react/static/js/main.aa80742a.js",
+    "index.html": "/frontend-react/index.html",
+    "main.aa80742a.js.map": "/frontend-react/static/js/main.aa80742a.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
