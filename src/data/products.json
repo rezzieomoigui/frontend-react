@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "_id": 1,
+      "name": "Zipper Top",
+      "price": 30,
+      "category": "Tops",
+      "size": "S-M-L",
+      "brand": "Vintage Vixen",
+      "img_name": "images/zipperteeprice.png",
+      "page": "product-zipper.html"
+    },
+    {
+      "_id": 2,
+      "name": "Graphic Tee",
+      "price": 22,
+      "category": "Graphic Tees",
+      "size": "XS-S-M-L",
+      "brand": "Vintage Vixen",
+      "img_name": "images/graphicteepricing.png",
+      "page": "product-graphic.html"
+    },
+    {
+      "_id": 3,
+      "name": "Low Rise Denim",
+      "price": 42,
+      "category": "Jeans",
+      "size": "S-M-L",
+      "brand": "Vintage Vixen",
+      "img_name": "images/lowrise.png",
+      "page": "product-jeans.html"
+    },
+    {
+      "_id": 4,
+      "name": "Kitten Heels",
+      "price": 212,
+      "category": "Accessories",
+      "size": "6-9",
+      "brand": "Vintage Vixen",
+      "img_name": "images/heels.png",
+      "page": "product-heels.html"
+    },
+    {
+      "_id": 5,
+      "name": "Vintage Mini Skirt",
+      "price": 38,
+      "category": "Bottoms",
+      "size": "S-M",
+      "brand": "Vintage Vixen",
+      "img_name": "images/skirt.jpg",
+      "page": "product-skirt.html"
+    },
+    {
+      "_id": 6,
+      "name": "Y2K Sunglasses",
+      "price": 18,
+      "category": "Accessories",
+      "size": "One Size",
+      "brand": "Vintage Vixen",
+      "img_name": "images/sunglasses.jpg",
+      "page": "product-sunglasses.html"
+    },
+    {
+      "_id": 7,
+      "name": "Baby Tee",
+      "price": 26,
+      "category": "Tops",
+      "size": "XS-S-M",
+      "brand": "Vintage Vixen",
+      "img_name": "images/babytee.jpg",
+      "page": "product-babytee.html"
+    },
+    {
+      "_id": 8,
+      "name": "Vintage Shoulder Bag",
+      "price": 55,
+      "category": "Accessories",
+      "size": "One Size",
+      "brand": "Vintage Vixen",
+      "img_name": "images/shoulderbag.jpg",
+      "page": "product-bag.html"
+    }
+  ]
+}
