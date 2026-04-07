@@ -1,5 +1,11 @@
 import "../styles/home.css";
-
+import homepic from "../images/homepic.png";
+import y2kcollection from "../images/y2kcollection.webp";
+import bedazzledtees from "../images/bedazzledtees.jpg";
+import furcoat from "../images/furcoat.jpg";
+import sellingimg1 from "../images/sellingimg1.png";
+import sellingimg2 from "../images/sellingimg2.jpg";
+import sellingimg3 from "../images/sellingimg3.jpg";
 function Home() {
   const setMood = (mood) => {
     const text = document.getElementById("mood-text");
@@ -32,7 +38,7 @@ function Home() {
 
       {/* HERO */}
       <section className="hero">
-        <img src="/images/homepic.png" alt="Vintage fashion" />
+        <img src= {homepic} alt="Vintage fashion" />
         <div className="hero-overlay">
           <h1>BUY FOR YOUR CLOSET AND SELL FROM YOUR CLOSET</h1>
           <p>ALL CLASSICS</p>
@@ -46,19 +52,19 @@ function Home() {
 
         <div className="collection-grid">
           <div className="collection-card">
-            <img src="/images/y2kcollection.webp" alt="" />
+            <img src={y2kcollection} alt="" />
             <h3>Y2K Madness Flash Sale</h3>
             <span>Explore the Collection →</span>
           </div>
 
           <div className="collection-card">
-            <img src="/images/bedazzledtees.jpg" alt="" />
+            <img src={bedazzledtees} alt="" />
             <h3>Bedazzled Tops</h3>
             <span>Explore the Collection →</span>
           </div>
 
           <div className="collection-card">
-            <img src="/images/furcoat.jpg" alt="" />
+            <img src={furcoat} alt="" />
             <h3>Trimmed Fur Coats</h3>
             <span>Explore the Collection →</span>
           </div>
@@ -72,19 +78,19 @@ function Home() {
 
         <div className="sell-grid">
           <div className="sell-box">
-            <img src="/images/sellingimg1.png" alt="" />
+            <img src={sellingimg1} alt="" />
             <h3>LIST YOUR ITEMS</h3>
             <p>Upload your pre-loved fashion pieces in minutes.</p>
           </div>
 
           <div className="sell-box">
-            <img src="/images/sellingimg2.jpg" alt="" />
+            <img src={sellingimg2} alt="" />
             <h3>MAKE MONEY</h3>
             <p>Sell fast & get paid quickly and securely.</p>
           </div>
 
           <div className="sell-box">
-            <img src="/images/sellingimg3.jpg" alt="" />
+            <img src={sellingimg3} alt="" />
             <h3>SHOP & SAVE</h3>
             <p>Find the best vintage & Y2K styles for less.</p>
           </div>

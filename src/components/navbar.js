@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import "../styles/style.css";
-
+import logo from "../images/logovv.png";
 function Navbar() {
   return (
     <header className="nav-wrapper">
 
       <div className="nav-top">
         <div className="logo">
-          <img src="/images/logovv.png" alt="Vintage Vixen logo" />
+          <img src={logo} alt="Vintage Vixen logo" />
         </div>
       </div>
 
