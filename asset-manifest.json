@@ -1,12 +1,27 @@
 {
   "files": {
-    "main.css": "/frontend-react/static/css/main.31d6cfe0.css",
-    "main.js": "/frontend-react/static/js/main.aa80742a.js",
+    "main.css": "/frontend-react/static/css/main.fb62b5d7.css",
+    "main.js": "/frontend-react/static/js/main.6f3e7057.js",
+    "static/media/homepic.png": "/frontend-react/static/media/homepic.217560c46f0039a724c3.png",
+    "static/media/denim3.png": "/frontend-react/static/media/denim3.56c85eb954bc665bb77b.png",
+    "static/media/denim1.png": "/frontend-react/static/media/denim1.2ce6d5aeaeecdd1615aa.png",
+    "static/media/look2.png": "/frontend-react/static/media/look2.7f0cad457c1fed380887.png",
+    "static/media/look3.png": "/frontend-react/static/media/look3.7b108335efe6e2e760b6.png",
+    "static/media/look1.png": "/frontend-react/static/media/look1.eddae67d69dcea6785c6.png",
+    "static/media/bedazzledtees.jpg": "/frontend-react/static/media/bedazzledtees.b8b9b23a25eeccfccbb4.jpg",
+    "static/media/y2kcollection.webp": "/frontend-react/static/media/y2kcollection.ddf650194ae1a07c0f88.webp",
+    "static/media/denim2.png": "/frontend-react/static/media/denim2.d1d10ec8981d4f150303.png",
+    "static/media/sellingimg2.jpg": "/frontend-react/static/media/sellingimg2.2ca3c6125c22c79a4016.jpg",
+    "static/media/furcoat.jpg": "/frontend-react/static/media/furcoat.a881c177f636a41c73cf.jpg",
+    "static/media/sellingimg3.jpg": "/frontend-react/static/media/sellingimg3.3fe751e1f5066d7d5653.jpg",
+    "static/media/sellingimg1.png": "/frontend-react/static/media/sellingimg1.281b6381363fcaf94479.png",
+    "static/media/logovv.png": "/frontend-react/static/media/logovv.0b1041aeedb59addd348.png",
     "index.html": "/frontend-react/index.html",
-    "main.aa80742a.js.map": "/frontend-react/static/js/main.aa80742a.js.map"
+    "main.fb62b5d7.css.map": "/frontend-react/static/css/main.fb62b5d7.css.map",
+    "main.6f3e7057.js.map": "/frontend-react/static/js/main.6f3e7057.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.aa80742a.js"
+    "static/css/main.fb62b5d7.css",
+    "static/js/main.6f3e7057.js"
   ]
 }

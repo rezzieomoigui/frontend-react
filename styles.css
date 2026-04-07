@@ -1,0 +1,129 @@
+/* =========================
+   CONTACT PAGE LUX DESIGN
+========================= */
+
+.contact-hero-lux {
+  height: 70vh;
+  background: url("images/contactback.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-hero-lux::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+ 
+}
+
+.contact-hero-content {
+  position: relative;
+  text-align: center;
+  max-width: 700px;
+  padding: 40px;
+}
+
+.contact-hero-content h1 {
+  font-size: 64px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.contact-hero-content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* =========================
+   SELL PAGE
+========================= */
+.sell-page main {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.sell-spotlight-full {
+  width: 100%;
+  height: 90vh;
+  background: url("images/actualsell.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 12%;
+}
+
+.sell-spotlight-full h1 {
+  font-size: 72px;
+  color: var(--pink-light);
+  max-width: 600px;
+  letter-spacing: 3px;
+}
+
+.sell-steps {
+  padding: 80px 12%;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.step-card {
+  padding: 40px;
+  background: #ffeaea;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.05);
+}
+
+.sell-form {
+  padding: 80px 12%;
+}
+
+.sell-form form {
+  max-width: 900px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  background: #ffeaea;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.sell-form h2 {
+  grid-column: span 2;
+}
+
+.sell-form button {
+  grid-column: span 2;
+  justify-self: start;
+}
+/* Background behind sell sections */
+.sell-background {
+  background: var(--white);
+  padding: 150px 0;
+  position: relative;
+}
+
+/* Add soft overlay so text is readable */
+.sell-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+ 
+}
+
+.sell-background > * {
+  position: relative;
+  z-index: 1;
+}
