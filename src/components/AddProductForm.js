@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function AddProductForm({ products, setProducts }) {
-  const SERVER_URL = "https://vintagevixen-server-2.onrender.com";
+  const SERVER_URL = "https://vintagevixen-server.onrender.com";
 
   const [formData, setFormData] = useState({
     title: "",
@@ -56,7 +56,6 @@ export default function AddProductForm({ products, setProducts }) {
       .then((data) => {
         if (data.success) {
           setProducts([...products, data.product]);
-
           setSuccess("Product added successfully!");
 
           setFormData({

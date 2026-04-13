@@ -2,11 +2,14 @@ import { useState, useEffect } from "react";
 import ProductCard from "../components/productcard";
 import "../styles/style.css";
 
+
 const SERVER_URL = "https://vintagevixen-server.onrender.com"; // replace with your Render URL
+
 
 function Shop() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
+
 
   useEffect(() => {
     fetch(`${SERVER_URL}/api/products`)
@@ -21,7 +24,9 @@ function Shop() {
       });
   }, []);
 
+
   if (loading) return <p>Loading products...</p>;
+
 
   return (
     <div className="shop-page">
@@ -40,5 +45,6 @@ function Shop() {
     </div>
   );
 }
+
 
 export default Shop;

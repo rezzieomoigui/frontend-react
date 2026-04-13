@@ -1,10 +1,9 @@
 import "../styles/style.css";
-import logo from "../images/logovv.png";
+import ProductList from "../components/ProductList";
 
 function Sell() {
   return (
     <div className="sell-page">
-
 
       {/* HERO */}
       <section className="sell-spotlight-full">
@@ -39,28 +38,16 @@ function Sell() {
           </div>
         </section>
 
-        {/* FORM */}
-        <section className="sell-form">
-          <form>
-            <h2>Seller Application</h2>
+        {/* ⭐ FORM SECTION */}
+        <section className="sell-form-section">
+          <h2>Add Your Item</h2>
+          <p>List your vintage piece below ✨</p>
 
-            <input type="text" placeholder="Full Name" />
-            <input type="email" placeholder="Email" />
-            <input type="text" placeholder="Item Description" />
-
-            <select>
-              <option>Condition</option>
-              <option>Excellent</option>
-              <option>Good</option>
-              <option>Fair</option>
-            </select>
-
-            <button className="btn">Submit Application</button>
-          </form>
+          {/* ONLY SHOW FORM */}
+          <ProductList showForm={true} />
         </section>
 
       </section>
-
     </div>
   );
 }

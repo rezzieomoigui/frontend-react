@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Navbar from "./components/navbar";
 
 import Home from "./pages/home";
@@ -17,7 +16,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
-
         {/* ✅ FIXED DYNAMIC ROUTE */}
         <Route path="/product/:id" element={<Product />} />
 
