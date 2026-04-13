@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-react/static/css/main.fb62b5d7.css",
-    "main.js": "/frontend-react/static/js/main.6f3e7057.js",
+    "main.css": "/frontend-react/static/css/main.6ef4ee9c.css",
+    "main.js": "/frontend-react/static/js/main.4fccebd3.js",
     "static/media/homepic.png": "/frontend-react/static/media/homepic.217560c46f0039a724c3.png",
     "static/media/denim3.png": "/frontend-react/static/media/denim3.56c85eb954bc665bb77b.png",
     "static/media/denim1.png": "/frontend-react/static/media/denim1.2ce6d5aeaeecdd1615aa.png",
@@ -17,11 +17,11 @@
     "static/media/sellingimg1.png": "/frontend-react/static/media/sellingimg1.281b6381363fcaf94479.png",
     "static/media/logovv.png": "/frontend-react/static/media/logovv.0b1041aeedb59addd348.png",
     "index.html": "/frontend-react/index.html",
-    "main.fb62b5d7.css.map": "/frontend-react/static/css/main.fb62b5d7.css.map",
-    "main.6f3e7057.js.map": "/frontend-react/static/js/main.6f3e7057.js.map"
+    "main.6ef4ee9c.css.map": "/frontend-react/static/css/main.6ef4ee9c.css.map",
+    "main.4fccebd3.js.map": "/frontend-react/static/js/main.4fccebd3.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb62b5d7.css",
-    "static/js/main.6f3e7057.js"
+    "static/css/main.6ef4ee9c.css",
+    "static/js/main.4fccebd3.js"
   ]
 }
