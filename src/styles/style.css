@@ -480,7 +480,65 @@ a {
 .back-link:hover {
   text-decoration: underline;
 }
+/* ===== FORM CONTAINER ===== */
+.form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff0f6; /* soft pink */
+  border-radius: 15px;
+}
 
+/* TITLE */
+.form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* INPUTS */
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* TEXTAREA */
+.form textarea {
+  height: 80px;
+  resize: none;
+}
+
+/* BUTTON */
+.form button {
+  width: 100%;
+  padding: 10px;
+  background: hotpink;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: deeppink;
+}
+
+/* ERROR TEXT */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+/* SUCCESS TEXT */
+.success {
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+}
 /* RESPONSIVE */
 
 @media (max-width: 900px) {

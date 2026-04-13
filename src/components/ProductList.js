@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import ProductCard from "./productcard";
+import AddProductForm from "./AddProductForm";
 
 export default function ProductList() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Replace this with your Render server URL
-  const SERVER_URL = "https://vintagevixen-server.onrender.com";
+  const SERVER_URL = "https://vintagevixen-server-2.onrender.com";
 
   useEffect(() => {
     fetch(`${SERVER_URL}/api/products`)
@@ -21,21 +21,25 @@ export default function ProductList() {
       });
   }, []);
 
-  if (loading) {
-    return <p>Loading products...</p>;
-  }
+  if (loading) return <p>Loading products...</p>;
 
   return (
-    <div className="product-list">
-      {products.map((product) => (
-        <ProductCard
-          key={product.id}
-          id={product.id}
-          title={product.title}
-          price={product.price}
-          image={`${SERVER_URL}${product.image}`} // full URL for images
-        />
-      ))}
+    <div>
+      {/* ✅ FORM CONNECTED */}
+      <AddProductForm products={products} setProducts={setProducts} />
+
+      {/* ✅ PRODUCTS */}
+      <div className="product-list">
+        {products.map((product) => (
+          <ProductCard
+            key={product.id}
+            id={product.id} // ⭐ REQUIRED
+            title={product.title}
+            price={product.price}
+            image={`${SERVER_URL}${product.image}`}
+          />
+        ))}
+      </div>
     </div>
   );
 }
